@@ -23,7 +23,7 @@ import { QueryRenderer } from "@cubejs-client/react";
 import cubejs from "@cubejs-client/core";
 
 // const API_URL = 'http://localhost:4000/cubejs-api/v1';
-const API_URL = 'http://netflixapi-env.eba-3xpuprkq.us-east-2.elasticbeanstalk.com/cubejs-api/v1';
+const API_URL = 'https://netflixapi-env.eba-3xpuprkq.us-east-2.elasticbeanstalk.com/cubejs-api/v1';
 const CUBEJS_TOKEN = '6ad781833935efd8b7134e2e4e256cfb23ce1fca3de9034d642891d2b78a50f27d0e0d99e55c04233385a5d4c18e8a012349c5d0541c38d6b8da92aa9746e365';
 
 const cubejsApi = cubejs(CUBEJS_TOKEN, {
